@@ -8,9 +8,9 @@ for i in n :
 for j in lst:
     a = j.center(int(j),j)
     if j == "0" :
-        print(int(j)+":")
+        print(f"{int(j)}:")
     else :
-        print(int(j)+":"+int(a))
+        print(f"{int(j)}: {int(a)}")
 
 '''
 برنامه‌ای بنويسيد كه یک عدد صحيح را که تعداد ارقامش مشخص نيست از کاربر گرفته و هر رقم را به تعداد آن رقم چاپ کند.
