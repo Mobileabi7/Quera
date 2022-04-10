@@ -1,0 +1,5 @@
+b = input()
+n, s = b.split(" ")
+n = int(n)
+s = str(s)
+print(n*"copy of "+s)
