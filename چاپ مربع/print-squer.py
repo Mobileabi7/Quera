@@ -1,6 +1,6 @@
-k=int(input('n:'))
-def square(n):
-    lines = ['*' * (n - i) + " " * i for i in range(n)]
-    for l in lines + lines[-2::-1]:
-        print(l + l[::-1])
-square(k)
+# چاپ مربع
+# https://b2n.ir/111929
+
+n = int(input())
+between = ("*" + " " * (n - 2) + "*\n") * (n - 2)
+print("*" * n, between + "*" * n, sep="\n")
